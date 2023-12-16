@@ -1,13 +1,16 @@
 # WeatherAPP_RestfulAPI
 
-This Weather Application utilizes two different APIs: **OpenWeatherMap API**. It enables users to input longitude and latitude coordinates to retrieve weather information for a specific location. For convenience, the application also uses **geocoding API**. This geocoding API automatically returns the longitude and latitude coordinates based on a city's name, which are then used with the OpenWeatherMap API to extract detailed weather information for the specified location. The application presents this weather data on a GUI developed using JavaFX.
+
+This Weather Application uses two Restful APIs: the **OpenWeatherMap API**. It offers users the capability to input longitude and latitude to retrieve detailed weather information for a specific location. The data includes the current temperature, feels-like temperature, weather description, humidity, pressure, and wind speed.
+
+For more convenience, the application also integrates the **Geocoding API**. Users can directly input a city's name, and the Geocoding API automatically provides the corresponding longitude and latitude coordinates. These coordinates are then utilized in the OpenWeatherMap API to fetch and display comprehensive weather details for the specified location. The GUI is developed using JavaFX to present the weather information to users.
 
 
 API used:
 https://openweathermap.org/api/geocoding-api
 https://openweathermap.org/current
 
-Results:
+Results:<br>
 ![2](https://github.com/oolongcha24/WeatherAPP_RestfulAPI/assets/98652546/7eeedffa-a558-4f2e-997f-01930183382c)
 
 
