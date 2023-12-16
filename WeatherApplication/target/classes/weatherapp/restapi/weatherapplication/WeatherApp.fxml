@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="705.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.restapi.weatherapplication.WeatherAppController">
+    <children>
+        <TextField fx:id="LonTF" layoutX="165.0" layoutY="157.0" prefHeight="26.0" prefWidth="123.0" />
+
+        <Label fx:id="ResultLB" layoutX="33.0" layoutY="296.0" textFill="#d0ffe9"/>
+        <Label layoutX="179.0" layoutY="45.0" text="Weather Application" textFill="#42d0ffe9">
+            <font>
+                <Font name="Fira Code Bold" size="35.0" />
+            </font>
+        </Label>
+      <Label layoutX="92.0" layoutY="161.0" text="Longitude" textFill="#d0ffe9"/>
+      <Label layoutX="101.0" layoutY="127.0" prefHeight="26.0" prefWidth="63.0" text="Latitude" textFill="#d0ffe9"/>
+      <TextField fx:id="LatTF" layoutX="165.0" layoutY="120.0" prefHeight="26.0" prefWidth="123.0" />
+        <Button layoutX="325.0" layoutY="224.0" mnemonicParsing="false" onAction="#getWeatherData" text="Check Weather" />
+      <TextField fx:id="addressTF" layoutX="532.0" layoutY="137.0" prefHeight="26.0" prefWidth="123.0" />
+      <Label layoutX="453.0" layoutY="140.0" prefHeight="18.0" prefWidth="63.0" text="City Name" textFill="#d0ffe9"/>
+      <Label layoutX="362.0" layoutY="136.0" text="or">
+         <font>
+            <Font name="DengXian Regular" size="23.0" />
+         </font>
+      </Label>
+      <Line endX="10.79998779296875" endY="16.0" layoutX="362.0" layoutY="120.0" startX="10.79998779296875" startY="-13.800003051757812" />
+      <Line endX="11.79998779296875" endY="7.1999969482421875" layoutX="362.0" layoutY="200.0" startX="11.79998779296875" startY="-26.800003051757812" />
+    </children>
+</AnchorPane>
